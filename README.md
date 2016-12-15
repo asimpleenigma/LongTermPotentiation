@@ -6,12 +6,12 @@ Long term potentiation (LTP) is a process by which the weight of a synapse is ch
 
 ## Simulation Specifications
 The simulation is a dynamical system model with the following variables for each neuron:
-Membrane potential.
-Action potential.
+* Membrane potential.
+* Action potential.
 And these for each synapse:
-Glutamate concentration in the synaptic cleft.
-Glutamate docked in the presynaptic density.
-AMPA concentration in the postsynaptic density.
+* Glutamate concentration in the synaptic cleft.
+* Glutamate docked in the presynaptic density.
+* AMPA concentration in the postsynaptic density.
 
 The derivatives of these variables are determined by parameters such as glutamate reuptake rate and NMDA sensitivity to membrane potential.  A full list of the 15 parameters can be found in the file biochem.py.
 
