@@ -8,6 +8,7 @@ Long term potentiation (LTP) is a process by which the weight of a synapse is ch
 The simulation is a dynamical system model with the following variables for each neuron:
 * Membrane potential.
 * Action potential.
+
 And these for each synapse:
 * Glutamate concentration in the synaptic cleft.
 * Glutamate docked in the presynaptic density.
